@@ -1,0 +1,315 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/README.md</file>
+  <line>3</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/README.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rogala'</description>
+  <highlighted_element>Rogala</highlighted_element>
+  <language>Markdown</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/bmi_app/StartActivity.java</file>
+  <line>22</line>
+  <module>BMI_app.app.main</module>
+  <package>com.example.bmi_app</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/bmi_app/StartActivity.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rogala'</description>
+  <highlighted_element>Rogala</highlighted_element>
+  <language>JAVA</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/recipes.xml</file>
+  <line>26</line>
+  <module>BMI_app.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/recipes.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Cristo'</description>
+  <highlighted_element>Cristo</highlighted_element>
+  <language>XML</language>
+  <offset>36</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/recipes.xml</file>
+  <line>151</line>
+  <module>BMI_app.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/recipes.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'farfalle'</description>
+  <highlighted_element>farfalle</highlighted_element>
+  <language>XML</language>
+  <offset>41</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/recipes.xml</file>
+  <line>188</line>
+  <module>BMI_app.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/recipes.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'farfalle'</description>
+  <highlighted_element>farfalle</highlighted_element>
+  <language>XML</language>
+  <offset>91</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml</file>
+  <line>10</line>
+  <module>BMI_app.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'sharedpref'</description>
+  <highlighted_element>sharedpref</highlighted_element>
+  <language>XML</language>
+  <offset>20</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>81</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'esac'</description>
+  <highlighted_element>esac</highlighted_element>
+  <language>TEXT</language>
+  <offset>0</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>90</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'JAVACMD'</description>
+  <highlighted_element>JAVACMD</highlighted_element>
+  <language>TEXT</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>110</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ulimit'</description>
+  <highlighted_element>ulimit</highlighted_element>
+  <language>TEXT</language>
+  <offset>18</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>126</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Xdock'</description>
+  <highlighted_element>Xdock</highlighted_element>
+  <language>TEXT</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>126</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'icns'</description>
+  <highlighted_element>icns</highlighted_element>
+  <language>TEXT</language>
+  <offset>93</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>131</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'cygpath'</description>
+  <highlighted_element>cygpath</highlighted_element>
+  <language>TEXT</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>137</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ROOTDIRSRAW'</description>
+  <highlighted_element>ROOTDIRSRAW</highlighted_element>
+  <language>TEXT</language>
+  <offset>4</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>137</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'maxdepth'</description>
+  <highlighted_element>maxdepth</highlighted_element>
+  <language>TEXT</language>
+  <offset>28</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>137</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'mindepth'</description>
+  <highlighted_element>mindepth</highlighted_element>
+  <language>TEXT</language>
+  <offset>40</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>140</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ROOTDIRS'</description>
+  <highlighted_element>ROOTDIRS</highlighted_element>
+  <language>TEXT</language>
+  <offset>8</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>143</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'OURCYGPATTERN'</description>
+  <highlighted_element>OURCYGPATTERN</highlighted_element>
+  <language>TEXT</language>
+  <offset>4</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>145</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'CYGPATTERN'</description>
+  <highlighted_element>CYGPATTERN</highlighted_element>
+  <language>TEXT</language>
+  <offset>18</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>151</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'egrep'</description>
+  <highlighted_element>egrep</highlighted_element>
+  <language>TEXT</language>
+  <offset>27</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>183</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Dorg'</description>
+  <highlighted_element>Dorg</highlighted_element>
+  <language>TEXT</language>
+  <offset>58</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew</file>
+  <line>183</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'appname'</description>
+  <highlighted_element>appname</highlighted_element>
+  <language>TEXT</language>
+  <offset>70</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>25</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'setlocal'</description>
+  <highlighted_element>setlocal</highlighted_element>
+  <language>textmate</language>
+  <offset>24</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>43</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ERRORLEVEL'</description>
+  <highlighted_element>ERRORLEVEL</highlighted_element>
+  <language>textmate</language>
+  <offset>5</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>74</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Dorg'</description>
+  <highlighted_element>Dorg</highlighted_element>
+  <language>textmate</language>
+  <offset>60</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>74</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'appname'</description>
+  <highlighted_element>appname</highlighted_element>
+  <language>textmate</language>
+  <offset>72</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>87</line>
+  <module>BMI_app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'endlocal'</description>
+  <highlighted_element>endlocal</highlighted_element>
+  <language>textmate</language>
+  <offset>24</offset>
+  <length>8</length>
+</problem>
+</problems>

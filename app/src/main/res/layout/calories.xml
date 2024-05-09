@@ -15,7 +15,8 @@
         android:text="Female"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/maleCheckbox" />
+        app:layout_constraintTop_toTopOf="@+id/maleCheckbox"
+        tools:ignore="HardcodedText" />
 
     <CheckBox
         android:id="@+id/maleCheckbox"
@@ -26,7 +27,8 @@
         android:text="Male"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ageNumber"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/ageNumber"
@@ -38,7 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/WeightNumber"
@@ -51,7 +54,8 @@
         app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
+        app:layout_constraintVertical_bias="0.512"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/HeightNumber"
@@ -64,10 +68,12 @@
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintVertical_bias="0.409"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/HeightText"
+        android:labelFor="@+id/HeightNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Height"
@@ -77,10 +83,12 @@
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintVertical_bias="0.404"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/ageText"
+        android:labelFor="@+id/ageNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -90,10 +98,12 @@
         app:layout_constraintBottom_toTopOf="@+id/HeightText"
         app:layout_constraintEnd_toStartOf="@+id/ageNumber"
         app:layout_constraintHorizontal_bias="0.969"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/WeightText"
+        android:labelFor="@+id/WeightNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -101,7 +111,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/WeightNumber"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/HeightText" />
+        app:layout_constraintTop_toBottomOf="@+id/HeightText"
+        tools:ignore="HardcodedText" />
 
 
     <Button
@@ -114,7 +125,22 @@
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintVertical_bias="0.629"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/caloriesText"
+        android:layout_width="162dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginBottom="3dp"
+        android:text="Your calories needs"
+        app:layout_constraintBottom_toTopOf="@+id/ResultText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/ResultText"
@@ -138,17 +164,8 @@
         app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
-
-    <TextView
-        android:id="@+id/caloriesText"
-        android:layout_width="162dp"
-        android:layout_height="18dp"
-        android:text="Your calories needs"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.265"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="501dp" />
+        app:layout_constraintVertical_bias="0.906"
+        tools:ignore="HardcodedText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

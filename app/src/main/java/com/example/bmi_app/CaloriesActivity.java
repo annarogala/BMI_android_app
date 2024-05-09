@@ -4,7 +4,6 @@ import java.util.Locale;
 
 import android.widget.Button;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -33,37 +32,23 @@ public class CaloriesActivity extends AppCompatActivity {
         resultTextView = findViewById(R.id.ResultText);
         Button backBtn = findViewById(R.id.backBtn);
 
-        maleCheckBox.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (maleCheckBox.isChecked()) {
-                    femaleCheckBox.setChecked(false);
-                }
+
+        femaleCheckBox.setOnClickListener(v -> {
+            if (femaleCheckBox.isChecked()) {
+                maleCheckBox.setChecked(false);
             }
         });
 
-        femaleCheckBox.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (femaleCheckBox.isChecked()) {
-                    maleCheckBox.setChecked(false);
-                }
+        maleCheckBox.setOnClickListener(v -> {
+            if (maleCheckBox.isChecked()) {
+                femaleCheckBox.setChecked(false);
             }
         });
 
-        calculateBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                calculateCalories();
-            }
-        });
+        calculateBtn.setOnClickListener(v ->
+                calculateCalories());
 
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        backBtn.setOnClickListener(v -> finish());
     }
 
     private void calculateCalories() {

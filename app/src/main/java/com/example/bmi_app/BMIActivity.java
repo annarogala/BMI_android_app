@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.Button;
 import android.widget.TextView;
-import android.view.View;
 import java.util.Locale;
 
 import android.os.Bundle;
@@ -29,19 +28,9 @@ public class BMIActivity extends AppCompatActivity {
 
         Button backBtn = findViewById(R.id.backBtn);
 
-        CalculateBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                calculateAndDisplayBMI();
-            }
-        });
+        CalculateBtn.setOnClickListener(v -> calculateAndDisplayBMI());
 
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        backBtn.setOnClickListener(v -> finish());
 
     }
 

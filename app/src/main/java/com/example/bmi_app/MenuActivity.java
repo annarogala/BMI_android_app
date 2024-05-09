@@ -2,7 +2,6 @@ package com.example.bmi_app;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,30 +14,23 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.menu);
 
         Button calculateBMIBtn = findViewById(R.id.calculateBMIBtn);
-        calculateBMIBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, BMIActivity.class);
-                startActivity(intent);
-            }
+        calculateBMIBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(MenuActivity.this, BMIActivity.class);
+            startActivity(intent);
+
         });
 
         Button calculateCaloriesBtn = findViewById(R.id.calculateCaloriesBtn);
-        calculateCaloriesBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, CaloriesActivity.class);
-                startActivity(intent);
-            }
+        calculateCaloriesBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(MenuActivity.this, CaloriesActivity.class);
+            startActivity(intent);
         });
 
         Button showRecipesBtn = findViewById(R.id.showRecipesBtn);
-        showRecipesBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, RecipesActivity.class);
-                startActivity(intent);
-            }
+        showRecipesBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(MenuActivity.this, RecipesActivity.class);
+            startActivity(intent);
+
         });
     }
 }
