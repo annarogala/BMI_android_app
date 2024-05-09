@@ -10,7 +10,7 @@ import java.util.Locale;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class BMIActivity extends AppCompatActivity {
     private EditText Weight;
     private EditText Height;
     private Button CalculateBtn;
@@ -20,18 +20,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.bmi);
 
 
         Height = findViewById(R.id.height);
         Weight = findViewById(R.id.weight);
-        CalculateBtn = findViewById(R.id.calculateBtn);
+        Button CalculateBtn = findViewById(R.id.startBtn);
         ResultTxt = findViewById(R.id.result);
+
+        Button backBtn = findViewById(R.id.backBtn);
 
         CalculateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 calculateAndDisplayBMI();
+            }
+        });
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 
