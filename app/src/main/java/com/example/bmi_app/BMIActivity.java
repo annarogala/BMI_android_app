@@ -13,7 +13,6 @@ import android.os.Bundle;
 public class BMIActivity extends AppCompatActivity {
     private EditText Weight;
     private EditText Height;
-    private Button CalculateBtn;
     private TextView ResultTxt;
 
 
@@ -63,5 +62,3 @@ public class BMIActivity extends AppCompatActivity {
         }
     }
 }
-
-/*Author: Anna Rogala s21487*/

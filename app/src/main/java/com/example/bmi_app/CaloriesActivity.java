@@ -17,7 +17,6 @@ public class CaloriesActivity extends AppCompatActivity {
     private EditText ageEditText;
     private CheckBox maleCheckBox;
     private CheckBox femaleCheckBox;
-    private Button calculateBtn;
     private TextView resultTextView;
 
     @Override
@@ -30,7 +29,7 @@ public class CaloriesActivity extends AppCompatActivity {
         ageEditText = findViewById(R.id.ageNumber);
         weightEditText = findViewById(R.id.WeightNumber);
         heightEditText = findViewById(R.id.HeightNumber);
-        calculateBtn = findViewById(R.id.CalculateBtn);
+        Button calculateBtn = findViewById(R.id.CalculateBtn);
         resultTextView = findViewById(R.id.ResultText);
         Button backBtn = findViewById(R.id.backBtn);
 

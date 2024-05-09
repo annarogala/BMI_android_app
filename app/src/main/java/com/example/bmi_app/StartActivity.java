@@ -22,3 +22,4 @@ public class StartActivity extends AppCompatActivity {
         });
     }
 }
+/*Author: Anna Rogala s21487*/
