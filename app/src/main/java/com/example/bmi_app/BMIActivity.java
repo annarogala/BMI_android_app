@@ -10,9 +10,9 @@ import java.util.Locale;
 import android.os.Bundle;
 
 public class BMIActivity extends AppCompatActivity {
-    private EditText Weight;
-    private EditText Height;
-    private TextView ResultTxt;
+    private EditText weight;
+    private EditText height;
+    private TextView resultTxt;
 
 
     @Override
@@ -21,10 +21,10 @@ public class BMIActivity extends AppCompatActivity {
         setContentView(R.layout.bmi);
 
 
-        Height = findViewById(R.id.height);
-        Weight = findViewById(R.id.weight);
+        height = findViewById(R.id.height);
+        weight = findViewById(R.id.weight);
         Button CalculateBtn = findViewById(R.id.startBtn);
-        ResultTxt = findViewById(R.id.result);
+        resultTxt = findViewById(R.id.result);
 
         Button backBtn = findViewById(R.id.backBtn);
 
@@ -35,8 +35,8 @@ public class BMIActivity extends AppCompatActivity {
     }
 
     private void calculateAndDisplayBMI() {
-        String weightStr = Weight.getText().toString();
-        String heightStr = Height.getText().toString();
+        String weightStr = weight.getText().toString();
+        String heightStr = height.getText().toString();
 
         if (!weightStr.isEmpty() && !heightStr.isEmpty()) {
             double weight = Double.parseDouble(weightStr);
@@ -44,10 +44,10 @@ public class BMIActivity extends AppCompatActivity {
 
             if (height > 0) {
                 double bmi = weight / (height * height);
-                ResultTxt.setText(String.format(Locale.getDefault(), "%.2f", bmi));
+                resultTxt.setText(String.format(Locale.getDefault(), "%.2f", bmi));
             }
         } else {
-            ResultTxt.setText("PROVIDE WEIGHT AND HEIGHT");
+            resultTxt.setText("PROVIDE WEIGHT AND HEIGHT");
         }
     }
 }
