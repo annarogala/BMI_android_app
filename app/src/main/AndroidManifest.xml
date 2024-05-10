@@ -28,6 +28,8 @@
             android:name=".CaloriesActivity"/>
         <activity
             android:name=".RecipesActivity"/>
+        <activity
+            android:name=".ShoppingListActivity"/>
     </application>
 
 </manifest>
