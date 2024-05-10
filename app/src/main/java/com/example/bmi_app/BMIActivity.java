@@ -23,7 +23,7 @@ public class BMIActivity extends AppCompatActivity {
 
         height = findViewById(R.id.height);
         weight = findViewById(R.id.weight);
-        Button CalculateBtn = findViewById(R.id.startBtn);
+        Button CalculateBtn = findViewById(R.id.calculateBMIBtn);
         resultTxt = findViewById(R.id.result);
 
         Button backBtn = findViewById(R.id.backBtn);

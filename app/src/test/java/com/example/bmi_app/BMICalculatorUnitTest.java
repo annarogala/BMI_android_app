@@ -9,7 +9,7 @@ public class BMICalculatorUnitTest {
     @Test
     public void calculateBMI_correctCalculation() {
         double weight = 75;
-        double height = 1.8;
+        double height = 180;
         double expectedBMI = weight / (height * height);
         double actualBMI = BMICalculator.calculateBMI(weight, height);
 
