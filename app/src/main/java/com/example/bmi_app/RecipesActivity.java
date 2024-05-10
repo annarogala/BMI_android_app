@@ -1,5 +1,6 @@
 package com.example.bmi_app;
 
+import android.content.Intent;
 import android.widget.Button;
 import android.os.Bundle;
 
@@ -15,6 +16,15 @@ public class RecipesActivity extends AppCompatActivity {
         Button backBtn = findViewById(R.id.backBtn);
 
 
-        backBtn.setOnClickListener(v -> finish());
+        backBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(RecipesActivity.this, MenuActivity.class);
+            startActivity(intent);
+        });
+
+        Button recipeShowcaseButton = findViewById(R.id.buyBtn);
+        recipeShowcaseButton.setOnClickListener(v -> {
+            Intent intent = new Intent(RecipesActivity.this, ShoppingListActivity.class);
+            startActivity(intent);
+        });
     }
 }
