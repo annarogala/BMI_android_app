@@ -41,11 +41,8 @@ public class BMIActivity extends AppCompatActivity {
         if (!weightStr.isEmpty() && !heightStr.isEmpty()) {
             double weight = Double.parseDouble(weightStr);
             double height = Double.parseDouble(heightStr) / 100;
-
-            if (height > 0) {
-                double bmi = weight / (height * height);
-                resultTxt.setText(String.format(Locale.getDefault(), "%.2f", bmi));
-            }
+            double bmi = BMICalculator.calculateBMI(weight, height);
+            resultTxt.setText(String.format(Locale.getDefault(), "%.2f", bmi));
         } else {
             resultTxt.setText("PROVIDE WEIGHT AND HEIGHT");
         }
