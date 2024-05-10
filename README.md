@@ -11,6 +11,13 @@
 - "Add Espresso Test" 4af78becf4680ccc60f6a922ddba7f88b7f96646
 ### task 4:
 - "Add Kotlin configuration and exercises" afcb4d8d5670c68baaf3600a40e0c7f475ea3221
+- "Change KotllinExercises to class" fd930453a6e83f5f21a18d630482e4d2adb4844c
+- "Upgrade gradle, fix kotlin config" f43cb44397e061461de266c9467f8d5e199cf4f8
+Shopping List: 
+- "Add Shopping List" 044289210c43866f5552128aa44edc038a40be26
+- Add buy button handling logic" 70bc072ca1f91244d1a95404e81266fe7627eb5e  
+BMI Chart:
+- "Add chart" c1f1cc3d5f5d2f926e8f88e3d8aca374d295bb29
 
 ## Monkey test pic
 
