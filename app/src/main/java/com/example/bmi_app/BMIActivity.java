@@ -6,6 +6,8 @@ import android.widget.EditText;
 import android.widget.Button;
 import android.widget.TextView;
 import java.util.Locale;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
 import android.os.Bundle;
 
@@ -31,6 +33,11 @@ public class BMIActivity extends AppCompatActivity {
         CalculateBtn.setOnClickListener(v -> calculateAndDisplayBMI());
 
         backBtn.setOnClickListener(v -> finish());
+
+        WebView chart = findViewById(R.id.chart);
+        WebSettings webSettings = chart.getSettings();
+        (webSettings).setJavaScriptEnabled(true);
+        chart.loadUrl("file:///android_asset/html/chart.html");
 
     }
 
