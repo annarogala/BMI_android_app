@@ -17,7 +17,7 @@ class ShoppingListActivity : AppCompatActivity() {
                 "nutmeg", "salt", "pepper", "parsley sprigs")
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        val adapter = ToBuyAdapter(ingredients)
+        val adapter = ShoppingListAdapter(ingredients)
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
 
